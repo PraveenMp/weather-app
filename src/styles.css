@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  min-height: 100%;
+  width:100%;
+  background-image: url("./assets/clouds.jpg");
+  color:#fff;
+}
+
+.city {
+font-size: 2em;
+}
+.current-temp {
+  font-size: 4em;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.description {
+  text-transform: capitalize;
+    font-size: 1.2em;
+    margin: 7px 0px;
+}
+
+.searchby {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.no-border-radius
+{
+  border-radius: 0px;
+}
+.btn-submit {
+margin: 15px 0px;
+cursor: pointer;
+}
+.list {
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+    text-align: center;
+}
